@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="pacman-circulo (2).ico">
+    <title>Página con Materialize</title>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+<body>
+
+    <!-- Encabezado -->
+    <div class="navbar-fixed">
+        <nav class="light-blue darken-3">
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo">
+                    Marcelo Méndez
+                </a>
+                <a href="#" data-target="menu-responsive" class="sidenav-trigger">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#">Contacto</a></li>
+                    <li><a href="#">Ayuda</a></li>
+                    <li><a href="#">Disney+</a></li>
+                    <li><a href="#">Netflix</a></li>
+                    <li>
+                        <a href="#" class="dropdown-trigger" data-target="id_drop">
+                            Dropdown
+                            <i class="material-icons right">arrow_drop_down</i>
+                        </a>
+                        <ul class="dropdown-content" id="id_drop">
+                            <li><a href="#">Item 1</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">Item 2</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">Item 3</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">Item 4</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <ul class="sidenav" id="menu-responsive">
+        <li><a href="#">Contacto</a></li>
+                <li><a href="#">Ayuda</a></li>
+                <li><a href="#">Disney+</a></li>
+                <li><a href="#">Netflix</a></li>
+    </ul>
+    
+    <!-- Botón de opciones -->
+    <div class="fixed-action-btn">
+        <a class="btn-floating teal darken-2 btn-large">
+            <i class="material-icons">more_vert</i>
+        </a>
+        <ul>
+            <li>
+                <a class="btn-floating  teal accent-4">
+                    <i class="material-icons">settings</i>
+                </a>
+            </li>
+            <li>
+                <a class="btn-floating cyan darken-1">
+                    <i class="material-icons">mode_edit</i>
+                </a>
+            </li>
+            <li>
+                <a class="btn-floating indigo">
+                    <i class="material-icons">add</i>
+                </a>
+            </li>
+            <li>
+                <a class="btn-floating blue darken-3">
+                    <i class="material-icons">search</i>
+                </a>
+            </li>
+        </ul>
+    </div>
+    
+    <!-- Contenido de la página -->
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m10 l10">
+
+                <!-- Sección 1
+                Imágenes con Slider -->
+                <div class="section scrollspy" id="1">
+                    <div class="row">
+                        <div class="col s12">
+                            <div class="slider">
+                                <ul class="slides">
+                                    <li>
+                                        <img src="https://images.pexels.com/photos/3408744/pexels-photo-3408744.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                                        <div class="caption center-align">
+                                            <h3>Lorem, ipsum dolor.</h3>
+                                            <h5 class="light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit, accusantium?</h5>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <img src="https://images.pexels.com/photos/572897/pexels-photo-572897.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                                        <div class="caption left-align">
+                                            <h3>Lorem, ipsum dolor.</h3>
+                                            <h5 class="light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit, accusantium?</h5>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <img src="https://images.pexels.com/photos/624015/pexels-photo-624015.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                                        <div class="caption right-align">
+                                            <h3>Lorem, ipsum dolor.</h3>
+                                            <h5 class="light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit, accusantium?</h5>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <br><br>
+                <div class="divider"></div>
+                <br><br>
+                
+                <!-- Sección 2
+                Cards con imágenes -->
+                <div class="section scrollspy" id="2">
+                    <div class="row">
+
+                        <!-- Card 01 - Muelle -->
+                        <div class="col s12 m4 l4">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="https://images.pexels.com/photos/8647586/pexels-photo-8647586.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                                    <span class="card-title">Muelle</span>
+                                    <a class="btn-floating btn-large halfway-fab waves-effect waves-green blue darken-3">
+                                        <i class="material-icons">flight</i>
+                                    </a>
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title center"><strong>ドック</strong></span>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita ipsum ipsam ducimus asperiores, assumenda inventore itaque amet molestiae repellendus commodi perspiciatis laudantium ratione veritatis provident.
+                                    </p>
+                                </div>
+                                <div class="card-action center">
+                                    <a class="blue-text text-darken-4" href="#"><strong>VISITAR</strong></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card 02 - Meijiin -->
+                        <div class="col s12 m4 l4">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="https://images.pexels.com/photos/2014871/pexels-photo-2014871.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                                    <span class="card-title">Meijiin</span>
+                                    <a class="btn-floating btn-large halfway-fab waves-effect waves-yellow green darken-3">
+                                        <i class="material-icons">person</i>
+                                    </a>
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title center"><strong>メイジイン</strong></span>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita ipsum ipsam ducimus asperiores, assumenda inventore itaque amet molestiae repellendus commodi perspiciatis laudantium ratione veritatis provident.
+                                    </p>
+                                </div>
+                                <div class="card-action center">
+                                    <a class="green-text text-darken-4" href="#2"><strong>CONTACTAR</strong></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card 03 - Konoha -->
+                        <div class="col s12 m4 l4">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="https://images.pexels.com/photos/3541443/pexels-photo-3541443.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                                    <span class="card-title">Konoha</span>
+                                    <a class="btn-floating btn-large halfway-fab waves-effect waves-orange red">
+                                        <i class="material-icons">local_fire_department</i>
+                                    </a>
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title center"><strong>木の葉</strong></span>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita ipsum ipsam ducimus asperiores, assumenda inventore itaque amet molestiae repellendus commodi perspiciatis laudantium ratione veritatis provident.
+                                    </p>
+                                </div>
+                                <div class="card-action center">
+                                    <a class="red-text text-darken-3" href="#2"><strong>HOKAGE</strong></a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <br><br>
+                <div class="divider"></div>
+                <br><br>
+
+                <!-- Sección 3
+                Carrusel de imágenes con materialboxed -->
+                <div class="section scrollspy" id="3">
+                    <h3 class="center grey-text text-darken-3">Lorem, ipsum dolor.</h3>
+                    <p class="center grey-text text-darken-2">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet veritatis quos corporis sed repellendus dolore vel veniam qui cumque, odit amet velit, nulla saepe quo.
+                    </p>
+                    <div class="row">
+                        <div class="col s12">
+                            <div class="carousel">
+                                <a class="carousel-item">
+                                    <img class="materialboxed" src="https://images.pexels.com/photos/4916559/pexels-photo-4916559.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                                </a>
+                                <a class="carousel-item">
+                                    <img class="materialboxed" src="https://images.pexels.com/photos/4534200/pexels-photo-4534200.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                                </a>
+                                <a class="carousel-item">
+                                    <img class="materialboxed" src="https://images.pexels.com/photos/747964/pexels-photo-747964.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                                </a>
+                                <a class="carousel-item">
+                                    <img class="materialboxed" src="https://images.pexels.com/photos/7125638/pexels-photo-7125638.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                                </a>
+                                <a class="carousel-item">
+                                    <img class="materialboxed" src="https://images.pexels.com/photos/5708069/pexels-photo-5708069.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <br><br>
+                <div class="divider"></div>
+                <br><br>
+
+                <!-- Sección 4
+                Cards con más información -->
+                <div class="section scrollspy" id="4">
+                    <div class="row">
+
+                        <!-- Card 01 - Meet the Sea -->
+                        <div class="col s12 m4 offset-m2 l4 offset-l2">
+                            <div class="card">
+                                <div class="card-image waves-effect waves-block waves-light">
+                                    <img class="activator" src="https://images.pexels.com/photos/4035587/pexels-photo-4035587.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title activator gery-text text-darken-4">
+                                        <i class="material-icons right">menu</i>
+                                        <strong>Meet the Sea</strong>
+                                    </span>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, cumque quam saepe impedit cupiditate repellendus illo repellat? Exercitationem, voluptatem dicta.
+                                    </p>
+                                </div>
+                                <div class="card-action center">
+                                    <a class="blue-text text-darken-4" href="#"><strong>ENTRAR</strong></a>
+                                </div>
+                                <div class="card-reveal">
+                                    <span class="card-title grey-text text-darken-4">
+                                        <strong>Title</strong>
+                                        <i class="material-icons right">close</i>
+                                    </span>
+                                    <p>
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium necessitatibus earum ullam mollitia sapiente, quis magni vel. Non, quidem veritatis.
+                                    </p>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem magni aspernatur quisquam dicta, perspiciatis earum, odit illo reprehenderit suscipit sapiente voluptatem? Repellendus facere ab facilis fugit consectetur deleniti incidunt et ut iste quae, modi tenetur!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card 02 - Back to Stars -->
+                        <div class="col s12 m4 l4">
+                            <div class="card">
+                                <div class="card-image waves-effect waves-block waves-light">
+                                    <img class="activator" src="https://images.pexels.com/photos/4220967/pexels-photo-4220967.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title activator gery-text text-darken-4">
+                                        <i class="material-icons right">menu</i>
+                                        <strong>Back to Stars</strong>
+                                    </span>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, cumque quam saepe impedit cupiditate repellendus illo repellat? Exercitationem, voluptatem dicta.
+                                    </p>
+                                </div>
+                                <div class="card-action center">
+                                    <a class="red-text text-darken-3" href="#"><strong>ENTRAR</strong></a>
+                                </div>
+                                <div class="card-reveal">
+                                    <span class="card-title grey-text text-darken-4">
+                                        <strong>Title</strong>
+                                        <i class="material-icons right">close</i>
+                                    </span>
+                                    <p>
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium necessitatibus earum ullam mollitia sapiente, quis magni vel. Non, quidem veritatis.
+                                    </p>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem magni aspernatur quisquam dicta, perspiciatis earum, odit illo reprehenderit suscipit sapiente voluptatem? Repellendus facere ab facilis fugit consectetur deleniti incidunt et ut iste quae, modi tenetur!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <br><br>
+                <div class="divider"></div>
+                <br><br>
+
+                <!-- Sección 5
+                Card final con partes -->
+                <div class="section scrollspy" id="5">
+                    <div class="col s12">
+                        <div class="card">
+                            <div class="card-content">
+                                <span class="card-title"><strong>Lorem, ipsum dolor.</strong></span>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo culpa omnis veritatis eveniet asperiores accusantium adipisci, sed nulla pariatur! Libero corporis laborum atque doloremque suscipit nihil quia consequatur eveniet odio.
+                                </p>
+                            </div>
+                            <div class="card-tabs">
+                                <ul class="tabs tabs-fixed-width">
+                                    <li class="tab"><a href="#testUno">Opción Uno</a></li>
+                                    <li class="tab"><a href="#testDos">Opción Dos</a></li>
+                                    <li class="tab"><a href="#testTres">Opción Tres</a></li>
+                                </ul>
+                            </div>
+                            <div class="card-content blue darken-3 white-text">
+                                <div id="testUno">
+                                    <h4><strong>Comer en el sitio</strong></h4>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, unde! Quas autem aperiam maxime quos? Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum amet nulla accusantium accusamus aliquid temporibus, at laborum distinctio atque necessitatibus!
+                                </div>
+                                <div id="testDos">
+                                    <h4><strong>Comer para llevar</strong></h4>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, unde! Quas autem aperiam maxime quos? Lorem ipsum dolor sit amet consectetur adipisicing elit harum amet nulla.
+                                </div>
+                                <div id="testTres">
+                                    <h4><strong>A domicilio</strong></h4>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, unde! Quas autem aperiam maxime quos? Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum amet nulla accusantium accusamus aliquid temporibus, at laborum distinctio atque necessitatibus! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus voluptates blanditiis facilis quae.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col hide-on-small-only m2 l2">
+                <div class="section pinned">
+                    <ul class="table-of-contents">
+                        <li><a href="#1">Primera Sección</a></li>
+                        <li><a href="#2">Segunda Sección</a></li>
+                        <li><a href="#3">Tercera Sección</a></li>
+                        <li><a href="#4">Cuarta Sección</a></li>
+                        <li><a href="#5">Quinta Sección</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.fixed-action-btn');
+            var instances = M.FloatingActionButton.init(elems, {
+                direction: 'left'
+            });
+            var elems = document.querySelectorAll('.carousel');
+            var instances = M.Carousel.init({
+                duration: 200,
+                fullWidth: true,
+                indicators: true
+            });
+            var elems = document.querySelectorAll('.materialboxed');
+            var instances = M.Materialbox.init(elems);
+            var elems = document.querySelectorAll('.slider');
+            var instances = M.Slider.init(elems, {
+                interval: 3000
+            });
+            var elems = document.querySelectorAll('.scrollspy');
+            var instances = M.ScrollSpy.init(elems, {
+                scrollOffset: 0
+            });
+            M.AutoInit();
+        });
+    </script>
+</body>
+</html>
